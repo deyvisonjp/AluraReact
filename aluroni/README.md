@@ -3,6 +3,7 @@
 ## Instalações e módulos usados
 - `npm install -D typescript-plugin-css-modules`
 - `npm install react-icons`
+- `npm install classnames`
 
 ## Configurar caminho relativo
 Dentro do tsconfig: ... `"baseUrl": "src"`   
