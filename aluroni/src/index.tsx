@@ -1,18 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import "normalize.css"
+import 'normalize.css';
 import './index.css';
-import Cardapio from './pages/Cardapio';
-import { Button } from './pages/Button';
+import Router from './routes';
+
+//Antes do ReactDOM - JAVASCRIPT
+// const conponenteAtual = window.location.pathname === '/' 
+//     ? <Home /> : <Cardapio />;
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <div>
-      <Cardapio />
-    </div>
-  </React.StrictMode>
+    <React.StrictMode>
+        <div>
+            <Router />
+        </div>
+    </React.StrictMode>
 );
-
