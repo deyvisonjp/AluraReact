@@ -13,8 +13,6 @@ const root = ReactDOM.createRoot(
 );
 root.render(
     <React.StrictMode>
-        <div>
-            <Router />
-        </div>
+        <Router />
     </React.StrictMode>
 );
